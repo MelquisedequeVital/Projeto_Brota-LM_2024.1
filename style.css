@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+/*Retirar o X do input */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+
+header{
+    background-color: #899C3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 35px;
+
+}
+
+
+.logo{
+    font-size: 48px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.busca{
+    position: relative;
+}
+
+
+.busca input{
+  width: 600px;
+  height: 50px;
+  display: block;
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 5px 8px 3px black;
+}
+
+.busca input:focus{
+    outline: none;
+}
+
+.busca button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: none;
+}
+
+.busca button:hover i{
+    color:gray
+}
+
+.conta{
+    font-family: Inter;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border:  solid;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.conta:hover{
+    background-color: black;
+    color: white;
+}
+
+.cabeçalho{
+    background-image: url(assets/Foto-main.png);
+    min-height: 810px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+}
+
+.cabeçalho h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: medium;
+    font-style: italic;
+}
+
+.cabeçalho p{
+    font-family: Inter;
+    font-size: 28px;
+}
+
+.cabeçalho a{
+    font-family: Inter;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #899C3D;
+    border-radius: 60px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.conteudo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.conteudo h2{
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.conteudo .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    justify-items: center;
+    gap: 20px;
+}
+
+.conteudo .grid-item{
+    background-color: #FFFCAE;
+    border-radius: 10px;
+    width: auto;
+}
+
+.titulo-cartao{
+    padding: 10px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.conteudo .grid-item p{
+    padding: 5px;
+    font-family: Inter;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.conteudo .grid-item b{
+    font-weight: bold;
+}
