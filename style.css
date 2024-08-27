@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,12 @@
     text-decoration: none;
     vertical-align: baseline;
 }
+
+
+:root{
+    font-size: 62.5%;
+}
+
 
 /*Retirar o X do input */
 input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
@@ -23,14 +32,15 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 50px;
-    padding: 35px;
+    align-items: center;
+    gap: 3em;
+    padding: 2em;
 
 }
 
 
 .logo{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-family: Inter, sans-serif;
     font-weight: bold;
     margin-left: 50px;
@@ -50,10 +60,11 @@ header{
   width: 600px;
   height: 50px;
   display: block;
-  padding: 8px;
+  padding: 0.5em;
   border-radius: 25px;
   border: none;
   box-shadow: 0 5px 8px 3px black;
+  font-size: 2rem;
 }
 
 .busca input:focus{
@@ -69,6 +80,7 @@ header{
     cursor: pointer;
     border-radius: 50%;
     background: none;
+    font-size: 2rem;
 }
 
 .busca button:hover i{
@@ -76,16 +88,16 @@ header{
 }
 
 .conta{
-    font-family: Inter;
-    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 2.4rem;
     text-decoration: none;
     color: black;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0.6em;
     border:  solid;
     border-radius: 50px;
-    padding: 20px;
+    padding: 1.25em;
 }
 
 .conta:hover{
@@ -105,25 +117,25 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5em;
     color: white;
 }
 
 .cabeçalho h1{
-    font-family: Inter;
-    font-size: 64px;
+    font-family: Inter, sans-serif;
+    font-size: 6.4rem;
     font-weight: medium;
     font-style: italic;
 }
 
 .cabeçalho p{
-    font-family: Inter;
-    font-size: 28px;
+    font-family: Inter, sans-serif;
+    font-size: 2.8rem;
 }
 
 .cabeçalho a{
-    font-family: Inter;
-    font-size: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 4rem;
     text-decoration: none;
     color: white;
     background-color: #899C3D;
@@ -131,7 +143,7 @@ header{
     width: 400px;
     height: auto;
     text-align: center;
-    padding: 20px;
+    padding: 1.25em;
 }
 
 .conteudo{
@@ -142,8 +154,8 @@ header{
 
 .conteudo h2{
     text-align: center;
-    font-family: Inter;
-    font-size: 50px;
+    font-family: Inter, sans-serif;
+    font-size: 5rem;
     margin-bottom: 20px;
 }
 
@@ -152,31 +164,69 @@ header{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
     justify-items: center;
-    gap: 20px;
+    gap: 1.2em;
 }
 
-.conteudo .grid-item{
+.cartao{
     background-color: #FFFCAE;
     border-radius: 10px;
-    width: auto;
+    width: 380px;
+    height: 685px;
+    text-align: left;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .titulo-cartao{
     padding: 10px;
     text-align: center;
-    font-family: Inter;
-    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
 
-.conteudo .grid-item p{
-    padding: 5px;
-    font-family: Inter;
-    font-size: 18px;
-    text-wrap: wrap;
+.descrição{
+    padding: 0.4em;
+    font-family: Inter, sans-serif;
+    font-size: 1.8rem;
+    overflow-wrap: break-word;
 }
 
-.conteudo .grid-item b{
+.cartao b{
     font-weight: bold;
 }
+
+.nav nav{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+}
+
+.nav-link{
+    position: relative;
+    text-decoration: none;
+
+}
+
+.nav-texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.6rem;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 0.5rem solid white;
+    padding: 0.5em;
+}
+
+.nav-link img{
+    width: 100%;
+}
+
+.nav-link:hover img{
+    filter: opacity(50%);
+}
+
+
