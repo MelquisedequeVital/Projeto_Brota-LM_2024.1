@@ -239,6 +239,20 @@ header{
     filter: opacity(50%);
 }
 
+.quiz{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.quiz h2{
+    font-size: 6rem;
+    font-family: Inter, sans-serif;
+}
+
 footer {
     background-color: #899C3D;
     margin-top: 20rem;
@@ -251,19 +265,35 @@ footer {
     text-align: center;
     justify-content: center;
 }
+
 .redes{
+    display: flex;
+    flex-direction: column ;
+    gap: 1rem;
+    align-items: center;
     color: #1a2000;
     font-size: 2rem;
     font-family: Inter, sans-serif;
     font-weight: bold;
     
 }
+
+.logo_redes{
+    display: flex;
+    gap: 5rem;
+}
+
+.logo_redes a{
+    margin: 0.5em;
+}
+
 .fa-brands{
     color: black;
     font-size: 3rem;
     margin: 0;
     
 }
+
 footer .logo{
     margin: 0;
 }
