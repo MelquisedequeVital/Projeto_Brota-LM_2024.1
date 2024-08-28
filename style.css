@@ -190,7 +190,8 @@ header{
 }
 
 .cartao img{
-    width: 100%;
+    width: 380px;
+    height: 437px;
 }
 
 
@@ -238,4 +239,31 @@ header{
     filter: opacity(50%);
 }
 
-
+footer {
+    background-color: #899C3D;
+    margin-top: 20rem;
+}
+.footer-content{
+    display: grid;
+    padding: 50px 15% 50px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 60px;
+    text-align: center;
+    justify-content: center;
+}
+.redes{
+    color: #1a2000;
+    font-size: 2rem;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    
+}
+.fa-brands{
+    color: black;
+    font-size: 3rem;
+    margin: 0;
+    
+}
+footer .logo{
+    margin: 0;
+}
