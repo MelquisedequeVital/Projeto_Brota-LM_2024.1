@@ -107,7 +107,7 @@ header{
     color: white;
 }
 
-.cabeçalho{
+.cabecalho{
     background-image: url(assets/Foto-main.png);
     min-height: 810px;
     width: 100%;
@@ -125,19 +125,19 @@ header{
     text-wrap: wrap;
 }
 
-.cabeçalho h1{
+.cabecalho h1{
     font-family: Inter, sans-serif;
     font-size: 6.4rem;
     font-weight: medium;
     font-style: italic;
 }
 
-.cabeçalho p{
+.cabecalho p{
     font-family: Inter, sans-serif;
     font-size: 2.8rem;
 }
 
-.cabeçalho a{
+.cabecalho a{
     font-family: Inter, sans-serif;
     font-size: 4rem;
     text-decoration: none;
@@ -332,13 +332,13 @@ footer .logo{
         font-size: 5rem;
     }
 
-    .cabeçalho{
+    .cabecalho{
         gap: 5rem;
         text-align: center;
         width: 100vw;
     }
 
-    .cabeçalho a{
+    .cabecalho a{
         font-size: 2.5rem;
         width: 13em;
     }
