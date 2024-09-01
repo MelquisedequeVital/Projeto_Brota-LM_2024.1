@@ -107,10 +107,6 @@ header{
     color: white;
 }
 
-main{
-    width: 100%;
-}
-
 .cabeçalho{
     background-image: url(assets/Foto-main.png);
     min-height: 810px;
@@ -264,8 +260,6 @@ main{
 footer {
     background-color: #899C3D;
     margin-top: 20rem;
-    width: 120vw;
-    min-width: max-content;
 }
 .footer-content{
     display: grid;
@@ -320,6 +314,7 @@ footer .logo{
     header{
         flex-direction: column;
         justify-content: center;
+        width: 100vw;
     }
 
     .busca input{
@@ -336,6 +331,11 @@ footer .logo{
 
     .conta i{
         font-size: 5rem;
+    }
+
+    main{
+        width: 115vw;
+        margin: auto;
     }
 
     .cabeçalho{
@@ -357,6 +357,10 @@ footer .logo{
         display:grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
+    }
+
+    footer{
+        width: 110vw;
     }
 
     .footer-content{
