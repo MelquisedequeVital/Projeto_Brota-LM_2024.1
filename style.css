@@ -57,7 +57,7 @@ header{
 
 
 .busca input{
-  width: 100%;
+  width: 480px;
   height: 50px;
   display: block;
   padding: 0.5em;
@@ -317,7 +317,7 @@ footer .logo{
     }
 
     .busca input{
-        width: 20em;
+        width: 100%;
     };
 
     .conta{
@@ -335,6 +335,7 @@ footer .logo{
     .cabeçalho{
         gap: 5rem;
         text-align: center;
+        width: 100vw;
     }
 
     .cabeçalho a{
@@ -353,9 +354,6 @@ footer .logo{
         grid-template-rows: auto auto auto;
     }
 
-    footer{
-        width: 110vw;
-    }
 
     .footer-content{
         grid-template-columns: auto;
