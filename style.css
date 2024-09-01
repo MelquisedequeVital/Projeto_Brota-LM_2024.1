@@ -57,7 +57,7 @@ header{
 
 
 .busca input{
-  width: 600px;
+  width: 100%;
   height: 50px;
   display: block;
   padding: 0.5em;
@@ -110,7 +110,7 @@ header{
 .cabeçalho{
     background-image: url(assets/Foto-main.png);
     min-height: 810px;
-    width: 100vw;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -314,7 +314,6 @@ footer .logo{
     header{
         flex-direction: column;
         justify-content: center;
-        width: 115vw;
     }
 
     .busca input{
@@ -331,10 +330,6 @@ footer .logo{
 
     .conta i{
         font-size: 5rem;
-    }
-
-    main{
-        width: 115vw;
     }
 
     .cabeçalho{
