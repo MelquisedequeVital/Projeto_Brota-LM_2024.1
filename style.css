@@ -35,7 +35,7 @@ header{
     align-items: center;
     gap: 3em;
     padding: 2em;
-
+    min-width: max-content;
 }
 
 
@@ -48,6 +48,7 @@ header{
 .logo a{
     text-decoration: none;
     color: rgb(2, 29, 0);
+    display: flex;
 }
 
 .busca{
@@ -109,7 +110,7 @@ header{
 .cabeçalho{
     background-image: url(assets/Foto-main.png);
     min-height: 810px;
-    width: auto;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,6 +121,8 @@ header{
     flex-direction: column;
     gap: 2.5em;
     color: white;
+    min-width: fit-content;
+    text-wrap: wrap;
 }
 
 .cabeçalho h1{
@@ -302,4 +305,63 @@ footer {
 
 footer .logo{
     margin: 0;
+}
+
+/* deixando responsivo */
+
+@media screen and (max-width: 1200px) {
+
+    header{
+        flex-direction: column;
+    }
+
+    .busca input{
+        width: 20em;
+    };
+
+    .conta{
+        border: none;
+    }
+
+    .conta p{
+        display: none;
+    }
+
+    .conta i{
+        font-size: 5rem;
+    }
+
+    .cabeçalho{
+        gap: 5rem;
+        text-align: center;
+    }
+
+    .cabeçalho a{
+        font-size: 2.5rem;
+        width: 13em;
+    }
+
+    
+    .conteudo .grid-container{
+        grid-template-columns: auto;
+    }
+
+    .nav nav{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .footer-content{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .footer-content .logo{
+        justify-self: center;
+    }
+    
+    footer .fa-brands{
+        font-size: 4rem;
+    }
 }
