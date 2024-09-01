@@ -179,6 +179,7 @@ header{
     height: 685px;
     text-align: left;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 150ms ease-in-out;
 }
 
 .cartao:hover{
@@ -194,8 +195,16 @@ header{
 }
 
 .cartao img{
+    height: 100%
+}
+
+.card-img{
     width: 380px;
     height: 437px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 
@@ -239,8 +248,15 @@ header{
     width: 100%;
 }
 
+.img-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 .nav-link:hover img{
-    filter: opacity(50%);
+   transform: scale(1.1);
 }
 
 .quiz{
@@ -371,9 +387,19 @@ footer .logo{
     }
 }
 
+@media screen and (min-width: 850px) and (max-width: 1200px){
+    .conteudo .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav nav{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media screen and (orientation: landscape) {
     header{
         flex-direction: row;
     }
 }
+
