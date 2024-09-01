@@ -36,7 +36,6 @@ header{
     gap: 3em;
     padding: 2em;
     min-width: max-content;
-    width: 100%;
 }
 
 
@@ -108,10 +107,14 @@ header{
     color: white;
 }
 
+main{
+    width: 100%;
+}
+
 .cabeçalho{
     background-image: url(assets/Foto-main.png);
     min-height: 810px;
-    width: 100%;
+    width: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -261,7 +264,8 @@ header{
 footer {
     background-color: #899C3D;
     margin-top: 20rem;
-    width: 100%;
+    width: 120vw;
+    min-width: max-content;
 }
 .footer-content{
     display: grid;
@@ -315,6 +319,7 @@ footer .logo{
 
     header{
         flex-direction: column;
+        justify-content: center;
     }
 
     .busca input{
