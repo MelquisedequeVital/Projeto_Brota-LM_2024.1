@@ -314,7 +314,7 @@ footer .logo{
     header{
         flex-direction: column;
         justify-content: center;
-        width: 100vw;
+        width: 115vw;
     }
 
     .busca input{
@@ -335,7 +335,6 @@ footer .logo{
 
     main{
         width: 115vw;
-        margin: auto;
     }
 
     .cabeçalho{
