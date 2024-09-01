@@ -36,6 +36,7 @@ header{
     gap: 3em;
     padding: 2em;
     min-width: max-content;
+    width: 100%;
 }
 
 
@@ -260,6 +261,7 @@ header{
 footer {
     background-color: #899C3D;
     margin-top: 20rem;
+    width: 100%;
 }
 .footer-content{
     display: grid;
@@ -363,5 +365,12 @@ footer .logo{
     
     footer .fa-brands{
         font-size: 4rem;
+    }
+}
+
+
+@media screen and (orientation: landscape) {
+    header{
+        flex-direction: row;
     }
 }
