@@ -1,4 +1,4 @@
-# ![logo muda planta](file:///C:/Users/Melquisedeque/Downloads/seedling-solid.svg "BROTA")
+<img src="file:///C:/Users/Melquisedeque/Downloads/seedling-solid.svg">
 
 
 Projeto criado por Mariana Ludmilla de Lima Maroja Limeira e Melquisedeque Vital para a disciplina de Linguagens de Marcação do IFPB
