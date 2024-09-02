@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>BROTA</h1>
+  <i class="fa-solid fa-seedling"></i><h1>BROTA</h1>
 </div>
 
 
