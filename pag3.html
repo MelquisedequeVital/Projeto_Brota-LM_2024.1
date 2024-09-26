@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brota</title>
     <meta name="description" content="TUDO PARA AS SUAS PLANTAS NUM SÓ LUGAR!">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="pagina.css">
+    <link rel="stylesheet" href="style.css"> 
+    <!-- <link rel="stylesheet" href="pagina.css">  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-yellow-100">
     <header>
         <span class="logo"><a href=""><i class="fa-solid fa-seedling"></i>BROTA</a></span>
         <form class="busca">
@@ -22,52 +23,99 @@
         </form>
         <a href="" class="conta"></i>Minha Conta<i class="fa-solid fa-circle-user"></i></a>
     </header>
-    <section class="jornal">
-        <h1 class="titulo">GIRASSOL</h1>
-        <div class="cima">
+    <nav aria-label="Breadcrumb" class="flex justify-center text-3xl m-3.5 p-3.5">
+        <ol class="flex overflow-hidden rounded-lg border border-gray-200 text-gray-600">
+        <li class="flex items-center">
+            <a
+            href="index.html"
+            class="flex h-10 items-center gap-1.5 bg-gray-100 px-4 transition hover:text-gray-900"
+            >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+            >
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+            </svg>
+    
+            <span class="ms-1.5 font-medium"> Home </span>
+            </a>
+        </li>
+    
+        <li class="relative flex items-center">
+            <span
+            class="absolute inset-y-0 -start-px h-10 w-4 bg-gray-100 [clip-path:_polygon(0_0,_0%_100%,_100%_50%)] rtl:rotate-180"
+            >
+            </span>
+    
+            <a
+            href="pag1.html"
+            class="flex h-10 items-center bg-white pe-4 ps-8 font-medium transition hover:text-gray-900"
+            >
+            Girassol
+            </a>
+        </li>
+        </ol>
+    </nav>
+    <section class="w-full">
+        <h1 class="text-8xl text-center font-bold font-sans p-8">VITÓRIA-RÉGIA</h1>
 
-            <img src="/assets/img-3.png" alt="Vitória-régia" class="">
-            <div class="ficha">
-                <p>Ficha Técnica</p>
+        <div class="flex justify-around p-20 text-4xl">
+            <img src="/assets/img-3.png" alt="gira sol" class="">
+            <div class="flex flex-col gap-2.5">
+                <h2 class="text-6xl bg-yellow-200">Ficha Técnica</h2>
                 <hr>
                 <p>
                     Nome Botânico:
                     Aloe arborescens
                 </p>
                 <hr>
-                <p>
+                <p class="bg-yellow-200">
                     Sinonímia: Aloe arborea, Aloe frutescens, Aloe fruticosa, Aloe natalensis, Aloe perfoliata, Aloe
                     perfoliata, Catevala arborescens
                 </p>
                 <hr>
                 <p>Nome Popular: Babosa</p>
                 <hr>
-                <p>
+                <p class="bg-yellow-200">
                     Outros Nomes: Aloé, Aloé-candelabro, Aloé-do-natal, Babosa-de-arbusto, Caraguatá, Caraguatá-de-jardim,
                     Erva-babosa, Erva-de-azebra
                 </p>
                 <hr>
                 <p>Luminosidade: Meia Sombra, Sol Pleno</p>
                 <hr>
-                <p>Origem: África, África do Sul, Malawi, Moçambique, Zimbábue</p>
+                <p class="bg-yellow-200">Origem: África, África do Sul, Malawi, Moçambique, Zimbábue</p>
                 <hr>
                 <p>Clima: Equatorial, Subtropical, Tropical</p>
                 <hr>
-                <p>Ciclo de Vida: Perene</p>
+                <p  class="bg-yellow-200">Ciclo de Vida: Perene</p>
                 <hr>
                 <p>
                     Altura: 0.4 a 0.6 metros, 0.6 a 0.9 metros, 0.9 a 1.2 metros, 1.2 a 1.8 metros, 1.8 a 2.4 metros, 2.4 a
                     3.0 metros
                 </p>
                 <hr>
-                <p>Família: Asphodelaceae</p>
+                <p class="bg-yellow-200">Família: Asphodelaceae</p>
             </div>
 
         </div>
-        <h1>GIRASSOL</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit natus voluptatum eveniet laudantium
-            asperiores suscipit temporibus voluptate totam soluta illo eum nihil consequuntur architecto ullam aliquam
-            libero, eligendi consequatur doloribus.</p>
+        <div class="text-xl">
+            <h1 class=" text-center text-5xl font-bold p-5">SOBRE A PLANTA</h1>
+            <p class="text-wrap text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida justo tincidunt ultrices sagittis. Proin et lacinia lorem. Aliquam mattis odio in congue condimentum. Phasellus sed fringilla urna. Donec vehicula massa est, id suscipit tortor tristique eget. Sed pulvinar vestibulum dui vel lacinia. Praesent vitae enim vitae mi vulputate convallis. Aenean quis lorem tristique, vehicula nunc pulvinar, dignissim quam. Donec non aliquam eros, sed egestas mi. Nam sed leo id nisi dapibus eleifend. Donec eget diam vitae tellus pretium rutrum id eu neque.
+                Vestibulum pretium rhoncus ex vel gravida. Aenean mollis dolor ac tincidunt porttitor. Vivamus et ipsum et diam gravida posuere. Duis ultrices varius rhoncus. Sed venenatis vehicula ligula, vitae hendrerit leo. Suspendisse id est luctus, dignissim quam eu, vulputate est. Donec eget risus vel massa egestas dapibus. Praesent lobortis magna vel justo bibendum pretium. Nunc molestie vitae ipsum faucibus laoreet. Donec pulvinar, erat id malesuada condimentum, diam tortor fermentum velit, suscipit volutpat nisl risus ac mauris. Integer vestibulum magna sit amet laoreet aliquet. Integer mi ex, aliquet non fermentum eu, molestie eu ligula. Nam hendrerit nisi ac placerat condimentum.
+                Etiam faucibus enim diam, eu malesuada neque tincidunt vel. Quisque ut neque et elit tempor volutpat. Ut sed velit vitae lectus dapibus convallis. Vestibulum tempor erat a quam condimentum, nec posuere augue fringilla. Proin quis posuere eros. Donec condimentum congue ullamcorper. Sed non tempor leo. Proin non dignissim ante. Donec pulvinar in sem varius pulvinar. Donec vehicula, sapien ut hendrerit ultricies, arcu sapien auctor lectus, in vulputate velit urna tempus magna. Praesent ultrices justo in lacus tempus, ut mattis lorem pretium. Cras tincidunt mauris et orci dignissim commodo. Maecenas rhoncus sit amet tellus vel rhoncus. Duis massa magna, mollis sed velit scelerisque, venenatis accumsan erat.
+                Nullam ac ex purus. Nulla sed eros diam. Nam condimentum erat sit amet erat gravida, nec egestas ipsum maximus. Sed tellus nisi, pretium a nibh quis, condimentum scelerisque orci. Vivamus id sapien libero. Mauris condimentum, arcu sit amet ultrices consectetur, odio elit maximus lorem, a fermentum ligula erat varius justo. Integer ante tortor, convallis ac nisi auctor, congue blandit lorem. Integer urna odio, porta id lacus nec, vulputate commodo lectus. Morbi tristique eleifend purus, scelerisque eleifend mi vulputate non. Proin suscipit mauris felis, eu condimentum diam ultrices id. Cras vel diam malesuada, mattis magna in, ultrices elit..
+            </p>
+        </div>
+        
     </section>
     <!--footer-->
     <footer>
@@ -85,6 +133,10 @@
                         <h3 class="nome-redes">Ludmilla</h3>
                         <a href="https://github.com/LudmillaMaroja"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.instagram.com/ludmilla_maroja/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="luiza">
+                        <h3 class="nome-redes">Luiza</h3>
+                        <a href="https://github.com/MariaLuizaSantana21"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>

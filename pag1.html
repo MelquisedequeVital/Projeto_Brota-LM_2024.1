@@ -14,7 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-yellow-100">
     <header>
         <span class="logo"><a href=""><i class="fa-solid fa-seedling"></i>BROTA</a></span>
         <form class="busca">
@@ -23,45 +23,86 @@
         </form>
         <a href="" class="conta"></i>Minha Conta<i class="fa-solid fa-circle-user"></i></a>
     </header>
+    <nav aria-label="Breadcrumb" class="flex justify-center text-3xl m-3.5 p-3.5">
+        <ol class="flex overflow-hidden rounded-lg border border-gray-200 text-gray-600">
+        <li class="flex items-center">
+            <a
+            href="index.html"
+            class="flex h-10 items-center gap-1.5 bg-gray-100 px-4 transition hover:text-gray-900"
+            >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+            >
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+            </svg>
+    
+            <span class="ms-1.5 font-medium"> Home </span>
+            </a>
+        </li>
+    
+        <li class="relative flex items-center">
+            <span
+            class="absolute inset-y-0 -start-px h-10 w-4 bg-gray-100 [clip-path:_polygon(0_0,_0%_100%,_100%_50%)] rtl:rotate-180"
+            >
+            </span>
+    
+            <a
+            href="pag1.html"
+            class="flex h-10 items-center bg-white pe-4 ps-8 font-medium transition hover:text-gray-900"
+            >
+            Girassol
+            </a>
+        </li>
+        </ol>
+    </nav>
     <section class="w-full">
         <h1 class="text-8xl text-center font-bold font-sans p-8">GIRASSOL</h1>
 
-        <div class="flex justify-between p-20 text-4xl">
+        <div class="flex justify-around p-20 text-4xl">
             <img src="/assets/img-1.png" alt="gira sol" class="">
-            <div class="">
-                <h2 class="text-6xl ml-6">Ficha Técnica</h2>
+            <div class="flex flex-col gap-2.5">
+                <h2 class="text-6xl bg-yellow-200">Ficha Técnica</h2>
                 <hr>
                 <p>
                     Nome Botânico:
                     Aloe arborescens
                 </p>
                 <hr>
-                <p>
+                <p class="bg-yellow-200">
                     Sinonímia: Aloe arborea, Aloe frutescens, Aloe fruticosa, Aloe natalensis, Aloe perfoliata, Aloe
                     perfoliata, Catevala arborescens
                 </p>
                 <hr>
                 <p>Nome Popular: Babosa</p>
                 <hr>
-                <p>
+                <p class="bg-yellow-200">
                     Outros Nomes: Aloé, Aloé-candelabro, Aloé-do-natal, Babosa-de-arbusto, Caraguatá, Caraguatá-de-jardim,
                     Erva-babosa, Erva-de-azebra
                 </p>
                 <hr>
                 <p>Luminosidade: Meia Sombra, Sol Pleno</p>
                 <hr>
-                <p>Origem: África, África do Sul, Malawi, Moçambique, Zimbábue</p>
+                <p class="bg-yellow-200">Origem: África, África do Sul, Malawi, Moçambique, Zimbábue</p>
                 <hr>
                 <p>Clima: Equatorial, Subtropical, Tropical</p>
                 <hr>
-                <p>Ciclo de Vida: Perene</p>
+                <p  class="bg-yellow-200">Ciclo de Vida: Perene</p>
                 <hr>
                 <p>
                     Altura: 0.4 a 0.6 metros, 0.6 a 0.9 metros, 0.9 a 1.2 metros, 1.2 a 1.8 metros, 1.8 a 2.4 metros, 2.4 a
                     3.0 metros
                 </p>
                 <hr>
-                <p>Família: Asphodelaceae</p>
+                <p class="bg-yellow-200">Família: Asphodelaceae</p>
             </div>
 
         </div>
@@ -92,6 +133,10 @@
                         <h3 class="nome-redes">Ludmilla</h3>
                         <a href="https://github.com/LudmillaMaroja"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.instagram.com/ludmilla_maroja/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="luiza">
+                        <h3 class="nome-redes">Luiza</h3>
+                        <a href="https://github.com/MariaLuizaSantana21"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
