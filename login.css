@@ -46,13 +46,14 @@
     display: grid;
     justify-items: center;
     color: aliceblue;
-    width: 70%;
+    width: 40%;
+    gap: 10px;
 }
 
 input{
     width: 100%;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 h2, h1{
@@ -67,6 +68,10 @@ h2, h1{
     border-radius: 8px;
     text-decoration: none;
     color: white;
+}
+
+p{
+    color: rgb(9, 21, 0);
 }
 
 @media screen and (max-width: 700px){
